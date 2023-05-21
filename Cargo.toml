@@ -1,0 +1,13 @@
+[package]
+name = "easy_base64"
+version = "0.1.0"
+edition = "2021"
+description = "The package provides the base64 encode/decode functions."
+documentation = "https://docs.rs/easy_base64"
+homepage = "https://github.com/stainless-steel/easy_base64"
+repository = "https://github.com/stainless-steel/easy_base64"
+readme = "README.md"
+categories = ["algorithms"]
+keywords = ["hash", "base64"]
+
+[dependencies]
