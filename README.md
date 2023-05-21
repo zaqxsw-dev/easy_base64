@@ -149,4 +149,5 @@ Project Link: [https://github.com/zaqxsw-dev/easy_base64](https://github.com/zaq
 [issues-url]: https://github.com/zaqxsw-dev/easy_base64/issues
 [license-shield]: https://img.shields.io/github/license/zaqxsw-dev/easy_base64.svg?style=for-the-badge
 [license-url]: https://github.com/zaqxsw-dev/easy_base64/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/bogdan-lipovtsev-746946257
