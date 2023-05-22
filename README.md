@@ -103,9 +103,9 @@ fn main() {
 }
 ```
 
-_Why encode return String but decode return bytes?
+_Why encode return a String, but decode return a bytes?_
 
-Because base64 encoded result always contains valid printable string symbols. But if was encoded binary data, then decode result not will be valid string.
+Because base64 encoded the result always contains valid printable string symbols. But if was encoded binary data, then decode result not will be valid string.
 
 _For more examples, please refer to the [Documentation](https://docs.rs/easy_base64/0.1.0/easy_base64/)_
 
