@@ -25,6 +25,4 @@ jobs:
     - name: Run tests
       run: cargo test --verbose
     - name: Run publish
-      run: cargo publish --token $env:CRATES_TOKEN
-      env:
-        CRATES_TOKEN: ${{ secrets.CRATE_TOKEN }}
+      run: cargo publish --token ${{ secrets.CRATE_TOKEN }}
