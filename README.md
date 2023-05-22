@@ -91,7 +91,17 @@ Just add new dependencie in your Cargo.toml file.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+```rust
+use easy_base64::{decode, encode};
+
+fn main() {
+    let decoded_b64 = decode("U3U=".to_string().as_bytes());
+    println!("Decoded: {}", String::from_utf8(decoded_b64).unwrap());
+
+    let encoded_b64 = encode("Su".to_string().as_bytes());
+    println!("Encoded: {}", encoded_b64);
+}
+```
 
 _For more examples, please refer to the [Documentation](https://docs.rs/easy_base64/0.1.0/easy_base64/)_
 

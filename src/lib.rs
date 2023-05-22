@@ -1,5 +1,18 @@
 use std::iter::repeat;
 
+// Usage:
+// ```
+// use easy_base64::{decode, encode};
+//
+// fn main() {
+//     let decoded_b64 = decode("U3U=".to_string().as_bytes());
+//     println!("Decoded: {}", String::from_utf8(decoded_b64).unwrap());
+//
+//     let encoded_b64 = encode("Su".to_string().as_bytes());
+//     println!("Encoded: {}", encoded_b64);
+// }
+// ```
+
 const BASE64CHARS: [u8; 64] = *b"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 const BASE64DECODE_TABLE: [u32; 128] = [
     80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80,
