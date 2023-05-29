@@ -1,6 +1,6 @@
 [package]
 name = "easy_base64"
-version = "0.1.3"
+version = "0.1.4"
 edition = "2021"
 description = "The package provides the base64 encode/decode functions."
 documentation = "https://docs.rs/easy_base64/0.1.0/easy_base64/"
