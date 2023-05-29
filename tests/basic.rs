@@ -13,13 +13,10 @@ mod tests {
     #[test]
     fn test_decode() {
         assert_eq!(
-            String::from_utf8(decode("U3U=".to_string().as_bytes())).unwrap(),
+            String::from_utf8(decode(b"U3U=")).unwrap(),
             "Su".to_string()
         );
-        assert_eq!(
-            String::from_utf8(decode("Uw==".to_string().as_bytes())).unwrap(),
-            "S".to_string()
-        );
+        assert_eq!(String::from_utf8(decode(b"Uw==")).unwrap(), "S".to_string());
         assert_eq!(
             String::from_utf8(decode("U3Vu".to_string().as_bytes())).unwrap(),
             "Sun".to_string()
