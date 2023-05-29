@@ -15,10 +15,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/zaqxsw-dev/easy_base64">
-    <img src="files/logo.png" alt="Logo" width="300" height="104">
-  </a>
-
 <h3 align="center">easy_base64</h3>
 
   <p align="center">
