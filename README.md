@@ -76,10 +76,17 @@ Just add new dependencie in your Cargo.toml file.
 use easy_base64::{decode, encode};
 
 fn main() {
-    let decoded_b64 = decode("U3U=".to_string().as_bytes());
+    let decoded_b64 = decode(b"U3U=");
     println!("Decoded: {}", String::from_utf8(decoded_b64).unwrap());
 
-    let encoded_b64 = encode("Su".to_string().as_bytes());
+    let encoded_b64 = encode(b"Su");
+    println!("Encoded: {}", encoded_b64);
+
+    // if you have String
+    let decoded_b64 = decode(String::from("U3U=").as_bytes());
+    println!("Decoded: {}", String::from_utf8(decoded_b64).unwrap());
+
+    let encoded_b64 = encode(String::from("Su").as_bytes());
     println!("Encoded: {}", encoded_b64);
 }
 ```
